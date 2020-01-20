@@ -1,0 +1,16 @@
+<h1>Update Entry</h1>
+<br>
+<form action="/update" method="post">
+
+    <label for="name">Name</label>
+    <input type="name" name="name" id="name" placeholder="Enter Name" value="<%= name%>">
+    <br>
+    <label for="defination">Defination</label>
+    <textarea name="defination" id="defination" cols="30" rows="10" placeholder="defination"><%= defination%></textarea>
+<!--    <input type="text" name="defination" id="defination" placeholder="defination" value="<%= defination%>">-->
+    <br>
+    <label for="count">Count</label>
+    <input type="number" name="count" id="count" placeholder="count" value="<%= count%>">
+    <br>
+    <button type="submit">Update</button>
+</form>
